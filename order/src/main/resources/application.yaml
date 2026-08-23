@@ -1,0 +1,12 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: order
+  threads:
+    virtual:
+      enabled: true
+
+api:
+  base-path: /api
